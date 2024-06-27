@@ -1,6 +1,7 @@
 body{
     background-color: black;
-    color: #ff79f4;
+    color: #ff79f4; 
+    text-align: center;
 }
 .blur{
     filter: blur(10px);
@@ -10,16 +11,44 @@ header{
     text-align: center;
     font-size: 200%;
     position: relative;
-    color: #ff79f4;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: 1px solid #ffffff;
+}
+.score{
+    display: inline;
+    width: 50%;
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 2%;
+    width: 400px;
+}
+.playerscore{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+.scorex,.scoreo{
+    flex:1;
 }
 button {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
+    margin-bottom: 2%;
 }
 .neon-button {
-    margin-bottom: 3%;
-    margin-right:5%;
     font-size: 1.5em;
     color: #ff0ae6;
     background-color: #111;
@@ -65,40 +94,6 @@ button {
 .neon-button:hover::before, .neon-button:hover::after {
     border-color:  rgb(240, 211, 239);
 }
-.game-container {
-    text-align: center;
-    margin-left: 5%;
-}
-table {
-    margin:10px auto ;
-}
-td {
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    font-size: 24px;
-    cursor: pointer;
-    border: 1px solid #ffffff;
-}
-.score{
-    display: inline;
-    width: 50%;
-    font-size: larger;
-    text-align: center;
-    margin-bottom: 2%;
-    width: 400px;
-}
-.playerscore{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    
-}
-.scorex,.scoreo{
-    flex:1;
-}
 #status{
     font-size: 175%;
-    margin-bottom: 2%;
-    text-align:center;
 }

@@ -5,21 +5,28 @@ body{
 .blur{
     filter: blur(10px);
     margin-top: -3.7em; 
+    font-size: 200%;
+}
+.clear{
+    font-size: 200%;
 }
 header{
     text-align: center;
-    font-size: 200%;
     position: relative;
     color: #ff79f4;
 }
 h2{
     color: white;
+    margin-bottom: 10%;
+}
+h4{
+    color: #ffffff;
 }
 button {
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-    margin-top: 10%;
+    margin-left: 4%;
 }
 .neon-button {
     margin-bottom: 3%;
@@ -68,4 +75,17 @@ button {
 
 .neon-button:hover::before, .neon-button:hover::after {
     border-color:  rgb(240, 211, 239);
+}
+.mode{
+    border-radius: 17px;
+    color: #ff79f4;
+    background-color: rgb(5, 26, 26);
+    border-color: black;
+    margin: 0 auto;
+}
+.mode:hover{
+    border-radius: 17px;
+    color: #370433;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
 }
